@@ -48,5 +48,23 @@ body{
     text-align: center; 
     padding: 0 10px; 
 }
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.2rem;
+    }
 
+    h2 {
+        font-size: 0.9rem;
+    }
+
+    .btn-container {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .btn {
+        width: 70px;
+        height: 70px;
+    }
+}
 
